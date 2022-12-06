@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     return button
   }()
 
-  weak var coordinator: MainCoordinator?
+  weak var coordinator: CounterCoordinator?
   let disposeBag = DisposeBag()
   
   override func viewDidLoad() {
@@ -34,7 +34,10 @@ class ViewController: UIViewController {
     timer()
     
     testButton.rx.tap
-      .bind{ self.coordinator?.gotoSecondView() }
+      .bind{
+        self.coordinator?.start()
+        print("터치")
+      }
       .disposed(by: disposeBag)
     
     // Do any additional setup after loading the view.

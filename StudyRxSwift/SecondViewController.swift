@@ -8,7 +8,7 @@
 import UIKit
 
 class SecondViewController: UIViewController {
-  weak var coordinator: SubCoordinator?
+  weak var coordinator: CounterCoordinator?
   
   var text: UILabel = {
     var text = UILabel()

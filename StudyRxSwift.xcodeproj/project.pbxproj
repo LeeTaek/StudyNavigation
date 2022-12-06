@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		997532FA293F0DEA00127D60 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532F9293F0DEA00127D60 /* AppCoordinator.swift */; };
+		997532FC293F109000127D60 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FB293F109000127D60 /* TabCoordinator.swift */; };
+		997532FE293F17A300127D60 /* NFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FD293F17A300127D60 /* NFCViewController.swift */; };
+		99753300293F17CC00127D60 /* CounterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FF293F17CC00127D60 /* CounterCoordinator.swift */; };
 		99B072D129389875007339AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B072D029389875007339AA /* AppDelegate.swift */; };
 		99B072D529389875007339AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B072D429389875007339AA /* ViewController.swift */; };
 		99B072D829389875007339AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B072D629389875007339AA /* Main.storyboard */; };
@@ -17,10 +21,14 @@
 		99B072EA293898AE007339AA /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99B072E9293898AE007339AA /* RxSwift */; };
 		99B072ED29389A1B007339AA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 99B072EC29389A1B007339AA /* SnapKit */; };
 		99FEFF8A293DC70A0016A8DB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FEFF89293DC70A0016A8DB /* SecondViewController.swift */; };
-		99FEFF8C293DCD320016A8DB /* MainCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FEFF8B293DCD320016A8DB /* MainCoordinator.swift */; };
+		99FEFF8C293DCD320016A8DB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FEFF8B293DCD320016A8DB /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		997532F9293F0DEA00127D60 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		997532FB293F109000127D60 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
+		997532FD293F17A300127D60 /* NFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
+		997532FF293F17CC00127D60 /* CounterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCoordinator.swift; sourceTree = "<group>"; };
 		99B072CD29389875007339AA /* StudyRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B072D029389875007339AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99B072D429389875007339AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -29,7 +37,7 @@
 		99B072DC29389877007339AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B072DE29389877007339AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		99FEFF89293DC70A0016A8DB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
-		99FEFF8B293DCD320016A8DB /* MainCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainCoordinator.swift; sourceTree = "<group>"; };
+		99FEFF8B293DCD320016A8DB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +55,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		997532F8293F0DD600127D60 /* Coordinator */ = {
+			isa = PBXGroup;
+			children = (
+				99FEFF8B293DCD320016A8DB /* Coordinator.swift */,
+				997532F9293F0DEA00127D60 /* AppCoordinator.swift */,
+				997532FB293F109000127D60 /* TabCoordinator.swift */,
+				997532FF293F17CC00127D60 /* CounterCoordinator.swift */,
+			);
+			path = Coordinator;
+			sourceTree = "<group>";
+		};
 		99B072C429389875007339AA = {
 			isa = PBXGroup;
 			children = (
@@ -66,14 +85,15 @@
 		99B072CF29389875007339AA /* StudyRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				997532F8293F0DD600127D60 /* Coordinator */,
 				99B072D029389875007339AA /* AppDelegate.swift */,
-				99FEFF8B293DCD320016A8DB /* MainCoordinator.swift */,
 				99B072D429389875007339AA /* ViewController.swift */,
 				99B072D629389875007339AA /* Main.storyboard */,
 				99B072D929389877007339AA /* Assets.xcassets */,
 				99B072DB29389877007339AA /* LaunchScreen.storyboard */,
 				99B072DE29389877007339AA /* Info.plist */,
 				99FEFF89293DC70A0016A8DB /* SecondViewController.swift */,
+				997532FD293F17A300127D60 /* NFCViewController.swift */,
 			);
 			path = StudyRxSwift;
 			sourceTree = "<group>";
@@ -160,9 +180,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				99FEFF8A293DC70A0016A8DB /* SecondViewController.swift in Sources */,
-				99FEFF8C293DCD320016A8DB /* MainCoordinator.swift in Sources */,
+				99FEFF8C293DCD320016A8DB /* Coordinator.swift in Sources */,
+				997532FE293F17A300127D60 /* NFCViewController.swift in Sources */,
+				997532FA293F0DEA00127D60 /* AppCoordinator.swift in Sources */,
 				99B072D529389875007339AA /* ViewController.swift in Sources */,
+				997532FC293F109000127D60 /* TabCoordinator.swift in Sources */,
 				99B072D129389875007339AA /* AppDelegate.swift in Sources */,
+				99753300293F17CC00127D60 /* CounterCoordinator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

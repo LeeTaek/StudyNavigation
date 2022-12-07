@@ -16,6 +16,8 @@
 
 ### Bluetooth, NFC
 
+[NFC](https://www.notion.so/NFC-63f7898559664b8597868ffe1e16ae04) 
+
 ### 화면 전환
 
 [Coordinator Pattern](https://www.notion.so/Coordinator-Pattern-ecda2660d40f422788cbdb320623e7dd) 

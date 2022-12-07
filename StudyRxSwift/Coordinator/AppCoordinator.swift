@@ -62,9 +62,6 @@ extension AppCoordinator: CoordinatorFinishDelegate {
     case .main:
       navigationContorller.viewControllers.removeAll()
       
-      
-    default:
-      break
     }
   }
 }

@@ -29,6 +29,7 @@
 		997532FB293F109000127D60 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		997532FD293F17A300127D60 /* NFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
 		997532FF293F17CC00127D60 /* CounterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCoordinator.swift; sourceTree = "<group>"; };
+		997533012940744600127D60 /* StudyRxSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudyRxSwift.entitlements; sourceTree = "<group>"; };
 		99B072CD29389875007339AA /* StudyRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B072D029389875007339AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99B072D429389875007339AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -85,13 +86,14 @@
 		99B072CF29389875007339AA /* StudyRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				997533012940744600127D60 /* StudyRxSwift.entitlements */,
 				997532F8293F0DD600127D60 /* Coordinator */,
 				99B072D029389875007339AA /* AppDelegate.swift */,
-				99B072D429389875007339AA /* ViewController.swift */,
 				99B072D629389875007339AA /* Main.storyboard */,
 				99B072D929389877007339AA /* Assets.xcassets */,
 				99B072DB29389877007339AA /* LaunchScreen.storyboard */,
 				99B072DE29389877007339AA /* Info.plist */,
+				99B072D429389875007339AA /* ViewController.swift */,
 				99FEFF89293DC70A0016A8DB /* SecondViewController.swift */,
 				997532FD293F17A300127D60 /* NFCViewController.swift */,
 			);
@@ -331,6 +333,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudyRxSwift/StudyRxSwift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H4MSW7FUBB;
@@ -359,6 +362,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = StudyRxSwift/StudyRxSwift.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 2;
 				DEVELOPMENT_TEAM = H4MSW7FUBB;

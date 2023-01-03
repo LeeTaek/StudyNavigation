@@ -1,0 +1,3 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JadeMarble/TycheCommon.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JadeMarble/TycheEpd.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/JadeMarble/TycheSpeex.framework

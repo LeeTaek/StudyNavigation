@@ -1,0 +1,6 @@
+framework module NuguAgents {
+  umbrella header "NuguAgents-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,29 +7,88 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		993A74FF2948680D00EB111C /* nugu-config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 993A74FE2948680D00EB111C /* nugu-config.plist */; };
 		997532FA293F0DEA00127D60 /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532F9293F0DEA00127D60 /* AppCoordinator.swift */; };
 		997532FC293F109000127D60 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FB293F109000127D60 /* TabCoordinator.swift */; };
 		997532FE293F17A300127D60 /* NFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FD293F17A300127D60 /* NFCViewController.swift */; };
 		99753300293F17CC00127D60 /* CounterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FF293F17CC00127D60 /* CounterCoordinator.swift */; };
+		99A954E2295D4F120060DBB2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A954E1295D4F120060DBB2 /* WidgetKit.framework */; };
+		99A954E4295D4F120060DBB2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A954E3295D4F120060DBB2 /* SwiftUI.framework */; };
+		99A954E7295D4F120060DBB2 /* StudyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A954E6295D4F120060DBB2 /* StudyWidgetBundle.swift */; };
+		99A954E9295D4F120060DBB2 /* StudyWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A954E8295D4F120060DBB2 /* StudyWidgetLiveActivity.swift */; };
+		99A954EB295D4F120060DBB2 /* StudyWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A954EA295D4F120060DBB2 /* StudyWidget.swift */; };
+		99A954EE295D4F140060DBB2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99A954ED295D4F140060DBB2 /* Assets.xcassets */; };
+		99A954F0295D4F140060DBB2 /* StudyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 99A954EC295D4F120060DBB2 /* StudyWidget.intentdefinition */; };
+		99A954F1295D4F140060DBB2 /* StudyWidget.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = 99A954EC295D4F120060DBB2 /* StudyWidget.intentdefinition */; };
+		99A954F4295D4F140060DBB2 /* StudyWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 99A954E0295D4F120060DBB2 /* StudyWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		99AB6D452962D1CC00D883D8 /* StudyWidgetLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A954E8295D4F120060DBB2 /* StudyWidgetLiveActivity.swift */; };
+		99AB6D472962D39900D883D8 /* LiveActivityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99AB6D462962D39900D883D8 /* LiveActivityManager.swift */; };
+		99ACB2C029513CBE000F9C4D /* NuguViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ACB2BF29513CBE000F9C4D /* NuguViewController.swift */; };
+		99ADB65A295061E1002841DE /* UserDefaults+Standard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADB659295061E1002841DE /* UserDefaults+Standard.swift */; };
+		99ADB65C29506214002841DE /* UserDefaultsWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADB65B29506214002841DE /* UserDefaultsWrapper.swift */; };
+		99ADB65E295062B3002841DE /* LocalTTSAgent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADB65D295062B3002841DE /* LocalTTSAgent.swift */; };
+		99ADB660295062D9002841DE /* NuguConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADB65F295062D9002841DE /* NuguConfig.swift */; };
+		99ADB6622950630E002841DE /* NuguError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99ADB6612950630E002841DE /* NuguError.swift */; };
 		99B072D129389875007339AA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B072D029389875007339AA /* AppDelegate.swift */; };
 		99B072D529389875007339AA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99B072D429389875007339AA /* ViewController.swift */; };
 		99B072D829389875007339AA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B072D629389875007339AA /* Main.storyboard */; };
 		99B072DA29389877007339AA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 99B072D929389877007339AA /* Assets.xcassets */; };
 		99B072DD29389877007339AA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 99B072DB29389877007339AA /* LaunchScreen.storyboard */; };
-		99B072E6293898AE007339AA /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = 99B072E5293898AE007339AA /* RxCocoa */; };
-		99B072E8293898AE007339AA /* RxRelay in Frameworks */ = {isa = PBXBuildFile; productRef = 99B072E7293898AE007339AA /* RxRelay */; };
-		99B072EA293898AE007339AA /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 99B072E9293898AE007339AA /* RxSwift */; };
-		99B072ED29389A1B007339AA /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 99B072EC29389A1B007339AA /* SnapKit */; };
+		99DE15482949AF5B00388142 /* NuguCentralManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99DE15472949AF5B00388142 /* NuguCentralManager.swift */; };
 		99FEFF8A293DC70A0016A8DB /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FEFF89293DC70A0016A8DB /* SecondViewController.swift */; };
 		99FEFF8C293DCD320016A8DB /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99FEFF8B293DCD320016A8DB /* Coordinator.swift */; };
+		DB683B904AE1E5C48E62DB74 /* Pods_StudyRxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 51E1881411BE7C5965A5713C /* Pods_StudyRxSwift.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		99A954F2295D4F140060DBB2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 99B072C529389875007339AA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 99A954DF295D4F120060DBB2;
+			remoteInfo = StudyWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		99A954F5295D4F150060DBB2 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				99A954F4295D4F140060DBB2 /* StudyWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		42D5DA42B2E86985919F97C1 /* Pods-StudyRxSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyRxSwift.debug.xcconfig"; path = "Target Support Files/Pods-StudyRxSwift/Pods-StudyRxSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		51E1881411BE7C5965A5713C /* Pods_StudyRxSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StudyRxSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		993A74FE2948680D00EB111C /* nugu-config.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "nugu-config.plist"; path = "../../../Downloads/nugu-config.plist"; sourceTree = "<group>"; };
 		997532F9293F0DEA00127D60 /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
 		997532FB293F109000127D60 /* TabCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabCoordinator.swift; sourceTree = "<group>"; };
 		997532FD293F17A300127D60 /* NFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
 		997532FF293F17CC00127D60 /* CounterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCoordinator.swift; sourceTree = "<group>"; };
 		997533012940744600127D60 /* StudyRxSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudyRxSwift.entitlements; sourceTree = "<group>"; };
+		99A954E0295D4F120060DBB2 /* StudyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StudyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		99A954E1295D4F120060DBB2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		99A954E3295D4F120060DBB2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		99A954E6295D4F120060DBB2 /* StudyWidgetBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyWidgetBundle.swift; sourceTree = "<group>"; };
+		99A954E8295D4F120060DBB2 /* StudyWidgetLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyWidgetLiveActivity.swift; sourceTree = "<group>"; };
+		99A954EA295D4F120060DBB2 /* StudyWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudyWidget.swift; sourceTree = "<group>"; };
+		99A954EC295D4F120060DBB2 /* StudyWidget.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = StudyWidget.intentdefinition; sourceTree = "<group>"; };
+		99A954ED295D4F140060DBB2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		99A954EF295D4F140060DBB2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99AB6D462962D39900D883D8 /* LiveActivityManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveActivityManager.swift; sourceTree = "<group>"; };
+		99ACB2BF29513CBE000F9C4D /* NuguViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguViewController.swift; sourceTree = "<group>"; };
+		99ADB659295061E1002841DE /* UserDefaults+Standard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+Standard.swift"; sourceTree = "<group>"; };
+		99ADB65B29506214002841DE /* UserDefaultsWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapper.swift; sourceTree = "<group>"; };
+		99ADB65D295062B3002841DE /* LocalTTSAgent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalTTSAgent.swift; sourceTree = "<group>"; };
+		99ADB65F295062D9002841DE /* NuguConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguConfig.swift; sourceTree = "<group>"; };
+		99ADB6612950630E002841DE /* NuguError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguError.swift; sourceTree = "<group>"; };
 		99B072CD29389875007339AA /* StudyRxSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StudyRxSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		99B072D029389875007339AA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		99B072D429389875007339AA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -37,25 +96,52 @@
 		99B072D929389877007339AA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		99B072DC29389877007339AA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		99B072DE29389877007339AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		99DE15472949AF5B00388142 /* NuguCentralManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguCentralManager.swift; sourceTree = "<group>"; };
 		99FEFF89293DC70A0016A8DB /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		99FEFF8B293DCD320016A8DB /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		E9317422F130EFB700FBE1EE /* Pods-StudyRxSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StudyRxSwift.release.xcconfig"; path = "Target Support Files/Pods-StudyRxSwift/Pods-StudyRxSwift.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		99A954DD295D4F120060DBB2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A954E4295D4F120060DBB2 /* SwiftUI.framework in Frameworks */,
+				99A954E2295D4F120060DBB2 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99B072CA29389875007339AA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				99B072EA293898AE007339AA /* RxSwift in Frameworks */,
-				99B072ED29389A1B007339AA /* SnapKit in Frameworks */,
-				99B072E8293898AE007339AA /* RxRelay in Frameworks */,
-				99B072E6293898AE007339AA /* RxCocoa in Frameworks */,
+				DB683B904AE1E5C48E62DB74 /* Pods_StudyRxSwift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		29990C79600BF22BEB300F4D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42D5DA42B2E86985919F97C1 /* Pods-StudyRxSwift.debug.xcconfig */,
+				E9317422F130EFB700FBE1EE /* Pods-StudyRxSwift.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		6CC598F9F867DE13C7B625B9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				51E1881411BE7C5965A5713C /* Pods_StudyRxSwift.framework */,
+				99A954E1295D4F120060DBB2 /* WidgetKit.framework */,
+				99A954E3295D4F120060DBB2 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		997532F8293F0DD600127D60 /* Coordinator */ = {
 			isa = PBXGroup;
 			children = (
@@ -67,11 +153,41 @@
 			path = Coordinator;
 			sourceTree = "<group>";
 		};
+		99A954E5295D4F120060DBB2 /* StudyWidget */ = {
+			isa = PBXGroup;
+			children = (
+				99A954E6295D4F120060DBB2 /* StudyWidgetBundle.swift */,
+				99A954E8295D4F120060DBB2 /* StudyWidgetLiveActivity.swift */,
+				99A954EA295D4F120060DBB2 /* StudyWidget.swift */,
+				99A954EC295D4F120060DBB2 /* StudyWidget.intentdefinition */,
+				99A954ED295D4F140060DBB2 /* Assets.xcassets */,
+				99A954EF295D4F140060DBB2 /* Info.plist */,
+			);
+			path = StudyWidget;
+			sourceTree = "<group>";
+		};
+		99ADB66329506314002841DE /* Nugu */ = {
+			isa = PBXGroup;
+			children = (
+				99ACB2BF29513CBE000F9C4D /* NuguViewController.swift */,
+				99DE15472949AF5B00388142 /* NuguCentralManager.swift */,
+				99ADB659295061E1002841DE /* UserDefaults+Standard.swift */,
+				99ADB65B29506214002841DE /* UserDefaultsWrapper.swift */,
+				99ADB65D295062B3002841DE /* LocalTTSAgent.swift */,
+				99ADB65F295062D9002841DE /* NuguConfig.swift */,
+				99ADB6612950630E002841DE /* NuguError.swift */,
+			);
+			path = Nugu;
+			sourceTree = "<group>";
+		};
 		99B072C429389875007339AA = {
 			isa = PBXGroup;
 			children = (
 				99B072CF29389875007339AA /* StudyRxSwift */,
+				99A954E5295D4F120060DBB2 /* StudyWidget */,
 				99B072CE29389875007339AA /* Products */,
+				29990C79600BF22BEB300F4D /* Pods */,
+				6CC598F9F867DE13C7B625B9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -79,6 +195,7 @@
 			isa = PBXGroup;
 			children = (
 				99B072CD29389875007339AA /* StudyRxSwift.app */,
+				99A954E0295D4F120060DBB2 /* StudyWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -86,6 +203,7 @@
 		99B072CF29389875007339AA /* StudyRxSwift */ = {
 			isa = PBXGroup;
 			children = (
+				99ADB66329506314002841DE /* Nugu */,
 				997533012940744600127D60 /* StudyRxSwift.entitlements */,
 				997532F8293F0DD600127D60 /* Coordinator */,
 				99B072D029389875007339AA /* AppDelegate.swift */,
@@ -93,9 +211,11 @@
 				99B072D929389877007339AA /* Assets.xcassets */,
 				99B072DB29389877007339AA /* LaunchScreen.storyboard */,
 				99B072DE29389877007339AA /* Info.plist */,
+				993A74FE2948680D00EB111C /* nugu-config.plist */,
 				99B072D429389875007339AA /* ViewController.swift */,
 				99FEFF89293DC70A0016A8DB /* SecondViewController.swift */,
 				997532FD293F17A300127D60 /* NFCViewController.swift */,
+				99AB6D462962D39900D883D8 /* LiveActivityManager.swift */,
 			);
 			path = StudyRxSwift;
 			sourceTree = "<group>";
@@ -103,25 +223,40 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		99B072CC29389875007339AA /* StudyRxSwift */ = {
+		99A954DF295D4F120060DBB2 /* StudyWidgetExtension */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 99B072E129389877007339AA /* Build configuration list for PBXNativeTarget "StudyRxSwift" */;
+			buildConfigurationList = 99A954F8295D4F150060DBB2 /* Build configuration list for PBXNativeTarget "StudyWidgetExtension" */;
 			buildPhases = (
-				99B072C929389875007339AA /* Sources */,
-				99B072CA29389875007339AA /* Frameworks */,
-				99B072CB29389875007339AA /* Resources */,
+				99A954DC295D4F120060DBB2 /* Sources */,
+				99A954DD295D4F120060DBB2 /* Frameworks */,
+				99A954DE295D4F120060DBB2 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = StudyRxSwift;
-			packageProductDependencies = (
-				99B072E5293898AE007339AA /* RxCocoa */,
-				99B072E7293898AE007339AA /* RxRelay */,
-				99B072E9293898AE007339AA /* RxSwift */,
-				99B072EC29389A1B007339AA /* SnapKit */,
+			name = StudyWidgetExtension;
+			productName = StudyWidgetExtension;
+			productReference = 99A954E0295D4F120060DBB2 /* StudyWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		99B072CC29389875007339AA /* StudyRxSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99B072E129389877007339AA /* Build configuration list for PBXNativeTarget "StudyRxSwift" */;
+			buildPhases = (
+				DB181B809595B2234D5F15DE /* [CP] Check Pods Manifest.lock */,
+				99B072C929389875007339AA /* Sources */,
+				99B072CA29389875007339AA /* Frameworks */,
+				99B072CB29389875007339AA /* Resources */,
+				7B882DE501457923339FFD8F /* [CP] Embed Pods Frameworks */,
+				99A954F5295D4F150060DBB2 /* Embed Foundation Extensions */,
 			);
+			buildRules = (
+			);
+			dependencies = (
+				99A954F3295D4F140060DBB2 /* PBXTargetDependency */,
+			);
+			name = StudyRxSwift;
 			productName = StudyRxSwift;
 			productReference = 99B072CD29389875007339AA /* StudyRxSwift.app */;
 			productType = "com.apple.product-type.application";
@@ -133,9 +268,12 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1410;
+				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
+					99A954DF295D4F120060DBB2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
 					99B072CC29389875007339AA = {
 						CreatedOnToolsVersion = 14.1;
 					};
@@ -150,25 +288,31 @@
 				Base,
 			);
 			mainGroup = 99B072C429389875007339AA;
-			packageReferences = (
-				99B072E4293898AE007339AA /* XCRemoteSwiftPackageReference "RxSwift" */,
-				99B072EB29389A1B007339AA /* XCRemoteSwiftPackageReference "SnapKit" */,
-			);
 			productRefGroup = 99B072CE29389875007339AA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				99B072CC29389875007339AA /* StudyRxSwift */,
+				99A954DF295D4F120060DBB2 /* StudyWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		99A954DE295D4F120060DBB2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A954EE295D4F140060DBB2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99B072CB29389875007339AA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				99B072DD29389877007339AA /* LaunchScreen.storyboard in Resources */,
+				993A74FF2948680D00EB111C /* nugu-config.plist in Resources */,
 				99B072DA29389877007339AA /* Assets.xcassets in Resources */,
 				99B072D829389875007339AA /* Main.storyboard in Resources */,
 			);
@@ -176,23 +320,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		7B882DE501457923339FFD8F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyRxSwift/Pods-StudyRxSwift-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StudyRxSwift/Pods-StudyRxSwift-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StudyRxSwift/Pods-StudyRxSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB181B809595B2234D5F15DE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StudyRxSwift-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		99A954DC295D4F120060DBB2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99A954EB295D4F120060DBB2 /* StudyWidget.swift in Sources */,
+				99A954E9295D4F120060DBB2 /* StudyWidgetLiveActivity.swift in Sources */,
+				99A954F0295D4F140060DBB2 /* StudyWidget.intentdefinition in Sources */,
+				99A954E7295D4F120060DBB2 /* StudyWidgetBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		99B072C929389875007339AA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				99FEFF8A293DC70A0016A8DB /* SecondViewController.swift in Sources */,
 				99FEFF8C293DCD320016A8DB /* Coordinator.swift in Sources */,
+				99A954F1295D4F140060DBB2 /* StudyWidget.intentdefinition in Sources */,
+				99DE15482949AF5B00388142 /* NuguCentralManager.swift in Sources */,
+				99ADB65E295062B3002841DE /* LocalTTSAgent.swift in Sources */,
 				997532FE293F17A300127D60 /* NFCViewController.swift in Sources */,
+				99ADB65C29506214002841DE /* UserDefaultsWrapper.swift in Sources */,
+				99ADB660295062D9002841DE /* NuguConfig.swift in Sources */,
+				99AB6D472962D39900D883D8 /* LiveActivityManager.swift in Sources */,
 				997532FA293F0DEA00127D60 /* AppCoordinator.swift in Sources */,
 				99B072D529389875007339AA /* ViewController.swift in Sources */,
 				997532FC293F109000127D60 /* TabCoordinator.swift in Sources */,
+				99ADB65A295061E1002841DE /* UserDefaults+Standard.swift in Sources */,
 				99B072D129389875007339AA /* AppDelegate.swift in Sources */,
+				99AB6D452962D1CC00D883D8 /* StudyWidgetLiveActivity.swift in Sources */,
+				99ACB2C029513CBE000F9C4D /* NuguViewController.swift in Sources */,
 				99753300293F17CC00127D60 /* CounterCoordinator.swift in Sources */,
+				99ADB6622950630E002841DE /* NuguError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		99A954F3295D4F140060DBB2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 99A954DF295D4F120060DBB2 /* StudyWidgetExtension */;
+			targetProxy = 99A954F2295D4F140060DBB2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		99B072D629389875007339AA /* Main.storyboard */ = {
@@ -214,6 +429,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		99A954F6295D4F150060DBB2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4MSW7FUBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StudyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.221124.StudyRxSwift.StudyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		99A954F7295D4F150060DBB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = H4MSW7FUBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StudyWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = StudyWidget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = test.221124.StudyRxSwift.StudyWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		99B072DF29389877007339AA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -330,7 +601,9 @@
 		};
 		99B072E229389877007339AA /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42D5DA42B2E86985919F97C1 /* Pods-StudyRxSwift.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = StudyRxSwift/StudyRxSwift.entitlements;
@@ -339,11 +612,15 @@
 				DEVELOPMENT_TEAM = H4MSW7FUBB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StudyRxSwift/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC 쓰고싶어용";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "말하고 시퍼용";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -359,7 +636,9 @@
 		};
 		99B072E329389877007339AA /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9317422F130EFB700FBE1EE /* Pods-StudyRxSwift.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = StudyRxSwift/StudyRxSwift.entitlements;
@@ -368,11 +647,15 @@
 				DEVELOPMENT_TEAM = H4MSW7FUBB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = StudyRxSwift/Info.plist;
+				INFOPLIST_KEY_NFCReaderUsageDescription = "NFC 쓰고싶어용";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "말하고 시퍼용";
+				INFOPLIST_KEY_NSSupportsLiveActivities = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -389,6 +672,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		99A954F8295D4F150060DBB2 /* Build configuration list for PBXNativeTarget "StudyWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99A954F6295D4F150060DBB2 /* Debug */,
+				99A954F7295D4F150060DBB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		99B072C829389875007339AA /* Build configuration list for PBXProject "StudyRxSwift" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -408,48 +700,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		99B072E4293898AE007339AA /* XCRemoteSwiftPackageReference "RxSwift" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/ReactiveX/RxSwift";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 6.0.0;
-			};
-		};
-		99B072EB29389A1B007339AA /* XCRemoteSwiftPackageReference "SnapKit" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SnapKit/SnapKit";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 5.0.0;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		99B072E5293898AE007339AA /* RxCocoa */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 99B072E4293898AE007339AA /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxCocoa;
-		};
-		99B072E7293898AE007339AA /* RxRelay */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 99B072E4293898AE007339AA /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxRelay;
-		};
-		99B072E9293898AE007339AA /* RxSwift */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 99B072E4293898AE007339AA /* XCRemoteSwiftPackageReference "RxSwift" */;
-			productName = RxSwift;
-		};
-		99B072EC29389A1B007339AA /* SnapKit */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = 99B072EB29389A1B007339AA /* XCRemoteSwiftPackageReference "SnapKit" */;
-			productName = SnapKit;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 99B072C529389875007339AA /* Project object */;
 }

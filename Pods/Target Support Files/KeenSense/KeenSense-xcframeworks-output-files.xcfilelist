@@ -1,0 +1,2 @@
+${PODS_XCFRAMEWORKS_BUILD_DIR}/KeenSense/TycheWakeupCommon.framework
+${PODS_XCFRAMEWORKS_BUILD_DIR}/KeenSense/TycheWakeup.framework

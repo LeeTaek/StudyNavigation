@@ -11,6 +11,7 @@ import UIKit
 enum TabBarPage {
   case counter
   case nfc
+  case nugu
   
   init?(index: Int) {
     switch index {
@@ -18,6 +19,8 @@ enum TabBarPage {
       self = .counter
     case 1:
       self = .nfc
+    case 2:
+      self = .nugu
     default:
       return nil
     }
@@ -29,6 +32,8 @@ enum TabBarPage {
       return "counter"
     case .nfc:
       return "nfc"
+    case .nugu:
+      return "nugu"
     }
     
   }
@@ -39,6 +44,8 @@ enum TabBarPage {
       return 0
     case .nfc:
       return 1
+    case .nugu:
+      return 2
     }
   }
 }
@@ -88,27 +95,20 @@ class TabCoordinator: NSObject, TabCoordinatorProtocol {
   
   
   func start() {
-    let pages: [TabBarPage] = [.counter, .nfc]
+    let pages: [TabBarPage] = [.counter, .nfc, .nugu]
       .sorted(by: { $0.pageOrderNumber() < $1.pageOrderNumber() })
     let controllers: [UINavigationController] = pages.map({ getTabController($0)} )
         
     prepareTabBarController(withTabControllers: controllers)
-    
-    
-    
   }
   
   
   // 해당 탭에 따른 ViewController 띄우기,
   private func prepareTabBarController(withTabControllers tabControllers: [UIViewController]) {
     tabBarController.delegate = self
-
     tabBarController.setViewControllers(tabControllers, animated: true)
-    
     tabBarController.selectedIndex = TabBarPage.counter.pageOrderNumber()
-    
     tabBarController.tabBar.isTranslucent = false
-    
     navigationContorller.viewControllers = [tabBarController]
   }
   
@@ -131,8 +131,11 @@ class TabCoordinator: NSObject, TabCoordinatorProtocol {
             
     case .nfc:
       let nfcVC = NFCViewController()
-      
       navController.pushViewController(nfcVC, animated: true)
+      
+    case .nugu:
+      let nuguVC = NuguViewController()
+      navController.pushViewController(nuguVC, animated: true)
     }
     
     return navController

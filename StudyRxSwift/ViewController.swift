@@ -5,13 +5,16 @@
 //  Created by openobject on 2022/12/01.
 //
 
+import AVFAudio
 import UIKit
+import ActivityKit
 
 import RxCocoa
 import RxSwift
 import SnapKit
 
 class ViewController: UIViewController {
+  // MARK: - Properties
   var testLabel: UILabel = {
     let label = UILabel()
     label.text = ""
@@ -27,6 +30,7 @@ class ViewController: UIViewController {
   weak var coordinator: CounterCoordinator?
   let disposeBag = DisposeBag()
   
+  // MARK: - Methods
   override func viewDidLoad() {
     super.viewDidLoad()
     setupView()
@@ -35,18 +39,18 @@ class ViewController: UIViewController {
     
     testButton.rx.tap
       .bind{
-        self.coordinator?.start()
-        print("터치")
+//        self.coordinator?.start()
+//        print("터치")
+        self.start()
       }
       .disposed(by: disposeBag)
-    
-    // Do any additional setup after loading the view.
   }
   
   func setupView() {
     view.addSubview(testLabel)
     view.addSubview(testButton)
   }
+  
   
   func setupLayout() {
     testLabel.snp.makeConstraints { make in
@@ -62,7 +66,6 @@ class ViewController: UIViewController {
     }
   }
 
-  
   func timer() {
     // 현재 날짜
     let year = Calendar.current.component(.year, from: .now)
@@ -89,5 +92,19 @@ class ViewController: UIViewController {
       }
       .disposed(by: disposeBag)
   }
+  
+  
+  @objc private func start() {
+    LiveActivityManager.shared.start()
+  }
+  
+  @objc private func update() {
+    LiveActivityManager.shared.update(state: .init(value: (0...100).randomElement()!))
+  }
+  
+  @objc private func stop() {
+    LiveActivityManager.shared.stop()
+  }
+  
 }
 

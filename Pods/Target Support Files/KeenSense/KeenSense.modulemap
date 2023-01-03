@@ -1,0 +1,6 @@
+framework module KeenSense {
+  umbrella header "KeenSense-umbrella.h"
+
+  export *
+  module * { export * }
+}

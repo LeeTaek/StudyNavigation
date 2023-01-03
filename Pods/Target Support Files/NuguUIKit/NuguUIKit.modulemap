@@ -1,0 +1,6 @@
+framework module NuguUIKit {
+  umbrella header "NuguUIKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

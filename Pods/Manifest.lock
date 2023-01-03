@@ -1,0 +1,108 @@
+PODS:
+  - JadeMarble (1.7.8):
+    - NattyLog (~> 1)
+    - TycheSDK (= 1.7.8)
+  - KeenSense (1.7.8):
+    - NattyLog (~> 1)
+    - NuguUtils (= 1.7.8)
+    - TycheSDK (= 1.7.8)
+  - lottie-ios (3.5.0)
+  - NattyLog (1.2.2)
+  - NuguAgents (1.7.8):
+    - JadeMarble (= 1.7.8)
+    - NattyLog (~> 1)
+    - NuguCore (= 1.7.8)
+    - NuguUtils (= 1.7.8)
+    - SilverTray (= 1.7.8)
+  - NuguClientKit (1.7.8):
+    - KeenSense (= 1.7.8)
+    - NattyLog (~> 1)
+    - NuguAgents (= 1.7.8)
+    - NuguCore (= 1.7.8)
+    - NuguLoginKit (= 1.7.8)
+    - NuguServiceKit (= 1.7.8)
+    - NuguUIKit (= 1.7.8)
+    - NuguUtils (= 1.7.8)
+  - NuguCore (1.7.8):
+    - NattyLog (~> 1.0)
+    - NuguUtils (= 1.7.8)
+    - RxSwift (~> 6)
+  - NuguLoginKit (1.7.8):
+    - NuguUtils (= 1.7.8)
+  - NuguObjcUtils (1.7.8)
+  - NuguServiceKit (1.7.8):
+    - NattyLog (~> 1)
+    - NuguUtils (= 1.7.8)
+  - NuguUIKit (1.7.8):
+    - lottie-ios (~> 3)
+    - NattyLog (~> 1)
+    - NuguAgents (= 1.7.8)
+    - NuguUtils (= 1.7.8)
+  - NuguUtils (1.7.8):
+    - RxSwift (~> 6)
+  - OpusSDK (1.7.8)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SilverTray (1.7.8):
+    - NuguObjcUtils (= 1.7.8)
+    - NuguUtils (= 1.7.8)
+    - OpusSDK (= 1.7.8)
+  - SnapKit (5.0.1)
+  - TycheSDK (1.7.8)
+
+DEPENDENCIES:
+  - NuguClientKit
+  - RxCocoa (= 6.5.0)
+  - RxSwift (= 6.5.0)
+  - SnapKit (~> 5.0.0)
+
+SPEC REPOS:
+  trunk:
+    - JadeMarble
+    - KeenSense
+    - lottie-ios
+    - NattyLog
+    - NuguAgents
+    - NuguClientKit
+    - NuguCore
+    - NuguLoginKit
+    - NuguObjcUtils
+    - NuguServiceKit
+    - NuguUIKit
+    - NuguUtils
+    - OpusSDK
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SilverTray
+    - SnapKit
+    - TycheSDK
+
+SPEC CHECKSUMS:
+  JadeMarble: b7093013d165f3c9352bfd6fab21b4e8cb28b025
+  KeenSense: 737634f087e082e572e624c9f50983caa8e48cfc
+  lottie-ios: c55158d67d0629a260625cc2ded2052b829e3c3e
+  NattyLog: 1a54981676b1dee3018b5e6cefed03b029212baa
+  NuguAgents: e93f2797b778f427bffce1f3e867678b6e305607
+  NuguClientKit: 8d883a681447d3555c78473cd1699b2e4daee69a
+  NuguCore: d5054598401aaa7c9ca1cf0696d5bf8886a0b8b7
+  NuguLoginKit: 3210316755cb38481e7860097d8fd4ae06439593
+  NuguObjcUtils: 6ea7ed8ddb49d94d1d9c8ca163149e83a8a8349c
+  NuguServiceKit: a41e4b28170b0cc23d30710ccdb50f75fc05651b
+  NuguUIKit: af900971136a17f629a29a95684a0f274ff3a702
+  NuguUtils: 3cf320f5e00cb0daa73f3413aeb3ee9b8a99c569
+  OpusSDK: 714fd1de1c7de52808cef2c35b7fcf02def68770
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SilverTray: c10fbc12f229f8c2de7d18a6c94f5f437a7b710e
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  TycheSDK: 8fca941e9a295b15e18d4de85e70f4ff08f6932d
+
+PODFILE CHECKSUM: eb9f856167df10a2c1aca04dcb1fb57025247d38
+
+COCOAPODS: 1.11.3

@@ -1,0 +1,4 @@
+${PODS_ROOT}/Target Support Files/JadeMarble/JadeMarble-xcframeworks.sh
+${PODS_ROOT}/JadeMarble/TycheCommon.xcframework
+${PODS_ROOT}/JadeMarble/TycheEpd.xcframework
+${PODS_ROOT}/JadeMarble/TycheSpeex.xcframework

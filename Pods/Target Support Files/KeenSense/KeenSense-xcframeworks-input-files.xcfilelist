@@ -1,0 +1,3 @@
+${PODS_ROOT}/Target Support Files/KeenSense/KeenSense-xcframeworks.sh
+${PODS_ROOT}/KeenSense/TycheWakeupCommon.xcframework
+${PODS_ROOT}/KeenSense/TycheWakeup.xcframework

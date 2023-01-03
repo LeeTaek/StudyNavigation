@@ -1,6 +1,6 @@
 # README.md
 
-> 12월, 공부할 목록들을 적고 차근차근 정리해보는 공간
+> 공부할 목록들을 적고 차근차근 정리
 > 
 
 <aside>
@@ -12,7 +12,7 @@
 
 ### Fastlane
 
-[Fastlane (1)](https://www.notion.so/Fastlane-1-c3f4b8341a534a63bcde5e664923a039) 
+[Fastlane ](https://www.notion.so/Fastlane-c3f4b8341a534a63bcde5e664923a039) 
 
 ### Bluetooth, NFC
 
@@ -25,3 +25,17 @@
 ### RxSwift
 
 [RxSwift](https://www.notion.so/0bf1823716af4a809dddbcd4850c4c3f)
+
+### Nugu SDK
+
+[NUGU developers](https://developers.nugu.co.kr/#/)
+
+[iOS](https://developers-doc.nugu.co.kr/nugu-sdk/platform/ios)
+
+### WidgetKit
+
+[WidgetKit](https://www.notion.so/WidgetKit-100fe48c61aa4d539a29a75b1485b4ef) 
+
+### ActivityKit
+
+[Live Activity](https://www.notion.so/Live-Activity-81741a2743cb4df78c0095545c6c9299)

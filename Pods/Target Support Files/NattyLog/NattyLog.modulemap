@@ -1,0 +1,6 @@
+framework module NattyLog {
+  umbrella header "NattyLog-umbrella.h"
+
+  export *
+  module * { export * }
+}

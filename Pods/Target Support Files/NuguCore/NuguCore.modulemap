@@ -1,0 +1,6 @@
+framework module NuguCore {
+  umbrella header "NuguCore-umbrella.h"
+
+  export *
+  module * { export * }
+}

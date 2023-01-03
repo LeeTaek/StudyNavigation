@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import NuguClientKit
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -25,6 +26,9 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     window = UIWindow(frame: UIScreen.main.bounds)
     window?.rootViewController = navController
     window?.makeKeyAndVisible()
+    
+    // NuguSDK ConfigurationStore init
+    ConfigurationStore.shared.configure()
     
     return true
   }

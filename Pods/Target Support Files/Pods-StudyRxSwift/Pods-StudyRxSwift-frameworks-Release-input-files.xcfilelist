@@ -1,0 +1,20 @@
+${PODS_ROOT}/Target Support Files/Pods-StudyRxSwift/Pods-StudyRxSwift-frameworks.sh
+${BUILT_PRODUCTS_DIR}/JadeMarble/JadeMarble.framework
+${BUILT_PRODUCTS_DIR}/KeenSense/KeenSense.framework
+${BUILT_PRODUCTS_DIR}/NattyLog/NattyLog.framework
+${BUILT_PRODUCTS_DIR}/NuguAgents/NuguAgents.framework
+${BUILT_PRODUCTS_DIR}/NuguClientKit/NuguClientKit.framework
+${BUILT_PRODUCTS_DIR}/NuguCore/NuguCore.framework
+${BUILT_PRODUCTS_DIR}/NuguLoginKit/NuguLoginKit.framework
+${BUILT_PRODUCTS_DIR}/NuguObjcUtils/NuguObjcUtils.framework
+${BUILT_PRODUCTS_DIR}/NuguServiceKit/NuguServiceKit.framework
+${BUILT_PRODUCTS_DIR}/NuguUIKit/NuguUIKit.framework
+${BUILT_PRODUCTS_DIR}/NuguUtils/NuguUtils.framework
+${BUILT_PRODUCTS_DIR}/OpusSDK/OpusSDK.framework
+${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework
+${BUILT_PRODUCTS_DIR}/RxRelay/RxRelay.framework
+${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework
+${BUILT_PRODUCTS_DIR}/SilverTray/SilverTray.framework
+${BUILT_PRODUCTS_DIR}/SnapKit/SnapKit.framework
+${BUILT_PRODUCTS_DIR}/TycheSDK/TycheSDK.framework
+${BUILT_PRODUCTS_DIR}/lottie-ios/Lottie.framework

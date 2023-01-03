@@ -1,0 +1,6 @@
+framework module SilverTray {
+  umbrella header "SilverTray-umbrella.h"
+
+  export *
+  module * { export * }
+}

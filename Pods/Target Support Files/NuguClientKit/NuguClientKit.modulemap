@@ -1,0 +1,6 @@
+framework module NuguClientKit {
+  umbrella header "NuguClientKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module NuguUtils {
+  umbrella header "NuguUtils-umbrella.h"
+
+  export *
+  module * { export * }
+}

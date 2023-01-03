@@ -1,0 +1,6 @@
+framework module JadeMarble {
+  umbrella header "JadeMarble-umbrella.h"
+
+  export *
+  module * { export * }
+}

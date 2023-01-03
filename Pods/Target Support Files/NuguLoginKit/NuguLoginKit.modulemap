@@ -1,0 +1,6 @@
+framework module NuguLoginKit {
+  umbrella header "NuguLoginKit-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -40,7 +40,7 @@ struct StudyWidgetLiveActivity: Widget {
                     Text("Trailing")
                 }
                 DynamicIslandExpandedRegion(.bottom) {
-                    Text("Bottom")
+                    Text("bottom")
                     // more content
                 }
             } compactLeading: {

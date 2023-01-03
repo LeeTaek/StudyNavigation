@@ -12,6 +12,7 @@
 		997532FC293F109000127D60 /* TabCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FB293F109000127D60 /* TabCoordinator.swift */; };
 		997532FE293F17A300127D60 /* NFCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FD293F17A300127D60 /* NFCViewController.swift */; };
 		99753300293F17CC00127D60 /* CounterCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 997532FF293F17CC00127D60 /* CounterCoordinator.swift */; };
+		99A8FD0D2963F84D00623E08 /* NuguView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A8FD0C2963F84D00623E08 /* NuguView.swift */; };
 		99A954E2295D4F120060DBB2 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A954E1295D4F120060DBB2 /* WidgetKit.framework */; };
 		99A954E4295D4F120060DBB2 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99A954E3295D4F120060DBB2 /* SwiftUI.framework */; };
 		99A954E7295D4F120060DBB2 /* StudyWidgetBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99A954E6295D4F120060DBB2 /* StudyWidgetBundle.swift */; };
@@ -73,6 +74,7 @@
 		997532FD293F17A300127D60 /* NFCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NFCViewController.swift; sourceTree = "<group>"; };
 		997532FF293F17CC00127D60 /* CounterCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterCoordinator.swift; sourceTree = "<group>"; };
 		997533012940744600127D60 /* StudyRxSwift.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = StudyRxSwift.entitlements; sourceTree = "<group>"; };
+		99A8FD0C2963F84D00623E08 /* NuguView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NuguView.swift; sourceTree = "<group>"; };
 		99A954E0295D4F120060DBB2 /* StudyWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = StudyWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 		99A954E1295D4F120060DBB2 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
 		99A954E3295D4F120060DBB2 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
@@ -216,6 +218,7 @@
 				99FEFF89293DC70A0016A8DB /* SecondViewController.swift */,
 				997532FD293F17A300127D60 /* NFCViewController.swift */,
 				99AB6D462962D39900D883D8 /* LiveActivityManager.swift */,
+				99A8FD0C2963F84D00623E08 /* NuguView.swift */,
 			);
 			path = StudyRxSwift;
 			sourceTree = "<group>";
@@ -392,6 +395,7 @@
 				997532FC293F109000127D60 /* TabCoordinator.swift in Sources */,
 				99ADB65A295061E1002841DE /* UserDefaults+Standard.swift in Sources */,
 				99B072D129389875007339AA /* AppDelegate.swift in Sources */,
+				99A8FD0D2963F84D00623E08 /* NuguView.swift in Sources */,
 				99AB6D452962D1CC00D883D8 /* StudyWidgetLiveActivity.swift in Sources */,
 				99ACB2C029513CBE000F9C4D /* NuguViewController.swift in Sources */,
 				99753300293F17CC00127D60 /* CounterCoordinator.swift in Sources */,

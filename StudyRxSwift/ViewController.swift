@@ -29,7 +29,7 @@ class ViewController: UIViewController {
 
   weak var coordinator: CounterCoordinator?
   let disposeBag = DisposeBag()
-  
+    
   // MARK: - Methods
   override func viewDidLoad() {
     super.viewDidLoad()
@@ -40,8 +40,13 @@ class ViewController: UIViewController {
     testButton.rx.tap
       .bind{
 //        self.coordinator?.start()
-//        print("터치")
-        self.start()
+        print("터치")
+        if self.isStart() {
+          self.stop()
+        } else {
+          self.start()
+        }
+        
       }
       .disposed(by: disposeBag)
   }
@@ -95,15 +100,23 @@ class ViewController: UIViewController {
   
   
   @objc private func start() {
-    LiveActivityManager.shared.start()
+    print("start")
+    return LiveActivityManager.shared.start()
   }
   
   @objc private func update() {
-    LiveActivityManager.shared.update(state: .init(value: (0...100).randomElement()!))
+    print("update")
+    return LiveActivityManager.shared.update(state: .init(value: (0...100).randomElement()!))
   }
   
   @objc private func stop() {
-    LiveActivityManager.shared.stop()
+    print("stop")
+    return LiveActivityManager.shared.stop()
+  }
+  
+  @objc private func isStart() -> Bool {
+    print(LiveActivityManager.shared.isStart())
+    return LiveActivityManager.shared.isStart()
   }
   
 }
